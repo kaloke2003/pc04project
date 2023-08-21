@@ -1,0 +1,128 @@
+INFO - 2023-08-21 11:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 11:53:47 --> Undefined variable: mode
+in APPPATH\Views\admin\user_list.php on line 6.
+ 1 APPPATH\Views\admin\user_list.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: mode', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_list.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user_list', [], true)
+ 5 APPPATH\Controllers\Backend.php(147): view('admin/user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Backend->user_manage()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 11:54:15 --> Undefined variable: userList
+in APPPATH\Views\admin\user_add.php on line 41.
+ 1 APPPATH\Views\admin\user_add.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user_add', [], true)
+ 5 APPPATH\Controllers\Backend.php(169): view('admin/user_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Backend->user_add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 11:55:53 --> Undefined variable: userList
+in APPPATH\Views\admin\user_add.php on line 41.
+ 1 APPPATH\Views\admin\user_add.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user_add', [], true)
+ 5 APPPATH\Controllers\Backend.php(169): view('admin/user_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Backend->user_add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 11:55:53 --> Undefined variable: userList
+in APPPATH\Views\admin\user_add.php on line 41.
+ 1 APPPATH\Views\admin\user_add.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user_add', [], true)
+ 5 APPPATH\Controllers\Backend.php(169): view('admin/user_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Backend->user_add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 11:57:59 --> Undefined variable: userList
+in APPPATH\Views\admin\user_add.php on line 41.
+ 1 APPPATH\Views\admin\user_add.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user_add', [], true)
+ 5 APPPATH\Controllers\Backend.php(169): view('admin/user_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Backend->user_add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 11:58:00 --> Undefined variable: userList
+in APPPATH\Views\admin\user_add.php on line 41.
+ 1 APPPATH\Views\admin\user_add.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user_add', [], true)
+ 5 APPPATH\Controllers\Backend.php(169): view('admin/user_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Backend->user_add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 11:58:00 --> Undefined variable: userList
+in APPPATH\Views\admin\user_add.php on line 41.
+ 1 APPPATH\Views\admin\user_add.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user_add', [], true)
+ 5 APPPATH\Controllers\Backend.php(169): view('admin/user_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Backend->user_add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 11:58:00 --> Undefined variable: userList
+in APPPATH\Views\admin\user_add.php on line 41.
+ 1 APPPATH\Views\admin\user_add.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user_add', [], true)
+ 5 APPPATH\Controllers\Backend.php(169): view('admin/user_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Backend->user_add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 11:58:01 --> Undefined variable: userList
+in APPPATH\Views\admin\user_add.php on line 41.
+ 1 APPPATH\Views\admin\user_add.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\admin\\user_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/user_add', [], true)
+ 5 APPPATH\Controllers\Backend.php(169): view('admin/user_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Backend->user_add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 11:59:46 --> Undefined index: firstname
+in APPPATH\Controllers\Backend.php on line 178.
+ 1 APPPATH\Controllers\Backend.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: firstname', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Backend.php', 178, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Backend->user_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 12:18:11 --> Undefined variable: img
+in APPPATH\Controllers\Backend.php on line 114.
+ 1 APPPATH\Controllers\Backend.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: img', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Backend.php', 114, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Backend->product_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 12:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 12:30:52 --> Undefined property: App\Controllers\Frontend::$data
+in APPPATH\Controllers\Frontend.php on line 28.
+ 1 APPPATH\Controllers\Frontend.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Frontend::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Frontend.php', 28, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 12:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 12:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 12:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 12:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

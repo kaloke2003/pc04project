@@ -9,8 +9,8 @@ class Product_model extends Model {
     protected $table = "product";
     protected $primaryKey = "product_id";
     protected $allowedFields = [
-        "title",
         "img",
+        "title",
         "price",
         "created_date",
         "modified_date",

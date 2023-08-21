@@ -41,15 +41,30 @@ $routes->get('/about', 'Frontend::about');
 
 $routes->get('/contact', 'Frontend::contact');
 
-$routes->get('/login', 'Frontend::login');
-
 $routes->get('/checkout', 'Frontend::checkout');
 
 $routes->get('/wishlist', 'Frontend::wishlist');
 
 $routes->get('/account', 'Frontend::account');
 
+$routes->get('/dashboard', 'Backend::index');
 
+//user
+$routes->get('/user_manage', 'Backend::user_manage');
+$routes->get('/user_add', 'Backend::user_add');
+$routes->get('/user_edit/(:num)', 'Backend::user_add/$1');
+$routes->get('/user_del/(:num)', 'Backend::user_del/$1');
+$routes->post('/user_submit', 'Backend::user_submit');
+
+//product
+$routes->get('/product_manage', 'Backend::product_manage');
+$routes->get('/product_add', 'Backend::product_add');
+$routes->get('/product_edit/(:num)', 'Backend::product_add/$1');
+$routes->get('/product_del/(:num)', 'Backend::product_del/$1');
+$routes->post('/product_submit', 'Backend::product_submit');
+
+//Login/register
+$routes->get('/login', 'Frontend::login');
 
 
 
