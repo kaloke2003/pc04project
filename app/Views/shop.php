@@ -169,20 +169,7 @@
                                     </li>
                                </ul>
                             </div>
-                            <div class="ro-info-box-wrap tpl3 st">
-                                <div class="tb-image">
-                                    <img src="<?=base_url('template')?>/img/products/4.jpg" alt="">
-                                </div>
-                                <div class="tb-content">
-                                    <div class="tb-content-inner an-inner">
-                                        <h5>WOMEN'S FASHION</h5>
-                                        <h3>MID SEASON SALE</h3>
-                                        <h6>
-                                            <a href="<?=base_url('template')?>/#">SHOP NOW</a>
-                                        </h6>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-md-8 col-lg-9 col-sm-12">
@@ -211,14 +198,7 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="shop5">
-                                                <label>Show :</label>
-                                                <select>
-                                                    <option value="">12</option>
-                                                    <option value="">24</option>
-                                                    <option value="">36</option>
-                                                </select>      
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                   <!-- Tab panes -->
@@ -226,7 +206,7 @@
                                         <div role="tabpanel" class="tab-pane active" id="home">
                                             <div class="row">
                                                 <div class="shop-tab">
-                                                    <!-- single-product start -->
+                                                    <!-- single-product start --><!-- foreach here-->
                                                     <div class="col-md-4 col-lg-4 col-sm-6">
                                                         <div class="single-product">
                                                             <div class="product-img">
@@ -259,8 +239,10 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <!-- single-product end -->				
-                                                    <!-- single-product start -->
+                                                    <!-- single-product end -->			
+                                                    
+                                                    
+                                               <!--deleted-->     <!-- single-product start -->
                                                     <div class="col-md-4 col-lg-4 col-sm-6">
                                                         <div class="single-product s-res s-non">
                                                             <div class="product-img">
@@ -513,7 +495,9 @@
                                                                 <a href="<?=base_url('template')?>/#" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="fa fa-shopping-cart"></i></a>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div><!--deleted-->
+
+                                                    
                                                 </div>
                                             </div>
                                         </div>
