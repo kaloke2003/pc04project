@@ -14,9 +14,32 @@ use App\Models\Product_model;
 
 class Login extends BaseController
 {
+
+    public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
+    {
+        // Do Not Edit This Line
+        parent::initController($request, $response, $logger);
+
+        // Preload any models, libraries, etc, here.
+        // E.g.: $this->session = \Config\Services::session();
+        $session = \Config\Services::session();
+        $token = $session->get("token");
+        $name = $session->get("name");
+
+        if(empty($token)) {
+            $this->data['is_login'] = false;
+        } else {
+            $this->data['is_login'] = true;
+            $this->data['name'] = $name;
+            $this->data['token'] = $token;
+        }
+
+
+    }
+
     public function login()
     {
-        return view('header').view('login').view('footer');
+        return view('header', $this->data).view('login', $this->data).view('footer', $this->data);
     }
 
     public function login_submit(){
@@ -34,13 +57,30 @@ class Login extends BaseController
             return redirect()->to("/login?err=Invalid email or password");
         }
 
+        $token = md5(date("YmdHis").rand(1000,9999));
+        helper("cookie");
+        set_cookie("token", $token, time()+7*24*3600);
+
+        $session = \Config\Services::session();
+        $session->set([
+            'name' => $userdata['name'],
+            'token' => $token,
+        ]);
+
+        $User_model->update([
+            'user_id' => $userdata['user_id']
+        ],[
+            'token' =>  $token,
+            'modified_date' => date("Y-m-d H:i:s")
+        ]);
+
         return redirect()->to("/login_thanks")->withCookies();
 
     }
 
     public function login_thanks(){
 
-        return view('header').view('login_thanks').view('footer');
+        return view('header', $this->data).view('login_thanks', $this->data).view('footer', $this->data);
 
     }
 
@@ -83,7 +123,7 @@ class Login extends BaseController
     }
     public function register_thanks(){
 
-        return view('header').view('register_thanks').view('footer');
+        return view('header', $this->data).view('register_thanks', $this->data).view('footer', $this->data);
 
     }
 

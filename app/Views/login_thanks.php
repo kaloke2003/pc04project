@@ -18,7 +18,8 @@
               <li><a href="account-orders.html">Account</a>
               </li>
               <li class="separator">&nbsp;</li>
-              <li>Login Successfully</li>
+            
+        
             </ul>
           </div>
         </div>

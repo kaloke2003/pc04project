@@ -15,37 +15,34 @@ use App\Models\Cart_model;
 use App\Models\Admin_model;
 
 
+
 class Backend extends BaseController
 {
     private $data = [];
     
     //token in
 
-    // public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
-    // {
-    //     // Do Not Edit This Line
-    //     parent::initController($request, $response, $logger);
+    public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
+    {
+        // Do Not Edit This Line
+        parent::initController($request, $response, $logger);
 
-    //     // Preload any models, libraries, etc, here.
-    //     // E.g.: $this->session = \Config\Services::session();
-    //     $session = \Config\Services::session();
-    //     $token = $session->get("token");
-    //     $name = $session->get("name");
-    //     $admin = $session->get("admin");
+        // Preload any models, libraries, etc, here.
+        // E.g.: $this->session = \Config\Services::session();
+        $session = \Config\Services::session();
+        $token = $session->get("token");
+        $name = $session->get("name");
 
-    //     if(empty($token) && $admin != -1) {
-    //         $this->data['is_login'] = false;
-    //         echo "<h1>You are not authorised to enter this area</h1>";
-    //         echo '<a href="'.base_url('login').'">Please Log in with admin account</a>';
-    //         exit;
-        
-    //     } else {
-    //         $this->data['is_login'] = true;
-    //         $this->data['name'] = $name;
-    //         $this->data['token'] = $token;
-    //     }
+        if(empty($token)) {
+            $this->data['is_login'] = false;
+        } else {
+            $this->data['is_login'] = true;
+            $this->data['name'] = $name;
+            $this->data['token'] = $token;
+        }
 
-    // }
+
+    }
 
     public function index()
     {

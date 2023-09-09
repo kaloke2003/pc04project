@@ -98,3 +98,240 @@ in APPPATH\Controllers\Admin.php on line 20.
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:40:45 --> Undefined variable: token
+in APPPATH\Views\header.php on line 68.
+ 1 APPPATH\Views\header.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: token', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 68, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Frontend.php(9): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->home()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:43:46 --> Undefined variable: token
+in APPPATH\Views\header.php on line 68.
+ 1 APPPATH\Views\header.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: token', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 68, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Frontend.php(9): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->home()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:44:40 --> Undefined variable: token
+in APPPATH\Views\header.php on line 68.
+ 1 APPPATH\Views\header.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: token', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 68, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Frontend.php(9): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->home()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:46:06 --> syntax error, unexpected end of file
+in APPPATH\Views\header.php on line 342.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\Frontend.php(9): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->home()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:47:31 --> syntax error, unexpected end of file
+in APPPATH\Views\header.php on line 342.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\Frontend.php(9): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->home()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 10:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-09 10:51:38 --> Undefined variable: is_login
+in APPPATH\Views\header.php on line 69.
+ 1 APPPATH\Views\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: is_login', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 69, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Frontend.php(9): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->home()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:53:28 --> Could not check compatibility between App\Controllers\Frontend::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\LoggerInterface is not available
+in APPPATH\Controllers\Frontend.php on line 7.
+ 1 APPPATH\Controllers\Frontend.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Could not check compatibility between App\\Controllers\\Frontend::initController(App\\Controllers\\RequestInterface $request, App\\Controllers\\ResponseInterface $response, App\\Controllers\\LoggerInterface $logger) and App\\Controllers\\BaseController::initController(CodeIgniter\\HTTP\\RequestInterface $request, CodeIgniter\\HTTP\\ResponseInterface $response, Psr\\Log\\LoggerInterface $logger), because class App\\Controllers\\LoggerInterface is not available', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Frontend.php', 7, [...])
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Frontend.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Frontend.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend')
+ 6 [internal function]: spl_autoload_call('App\\Controllers\\Frontend')
+ 7 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Frontend', true)
+ 8 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 10:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-09 10:55:25 --> Undefined variable: is_login
+in APPPATH\Views\header.php on line 69.
+ 1 APPPATH\Views\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: is_login', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 69, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Frontend.php(38): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->home()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 10:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-09 10:55:26 --> Undefined variable: is_login
+in APPPATH\Views\header.php on line 69.
+ 1 APPPATH\Views\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: is_login', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 69, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Frontend.php(38): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->home()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 11:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-09 11:16:01 --> Undefined variable: is_login
+in APPPATH\Views\header.php on line 69.
+ 1 APPPATH\Views\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: is_login', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 69, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Frontend.php(38): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->home()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 11:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-09 11:20:45 --> Undefined variable: is_login
+in APPPATH\Views\header.php on line 69.
+ 1 APPPATH\Views\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: is_login', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 69, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Frontend.php(38): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->home()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 11:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-09 11:20:47 --> Undefined variable: is_login
+in APPPATH\Views\header.php on line 69.
+ 1 APPPATH\Views\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: is_login', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 69, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Frontend.php(38): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->home()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 11:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-09 11:21:16 --> Undefined variable: is_login
+in APPPATH\Views\header.php on line 69.
+ 1 APPPATH\Views\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: is_login', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 69, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Frontend.php(38): view('header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->home()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 11:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-09 11:27:39 --> Undefined variable: is_login
+in APPPATH\Views\header.php on line 69.
+ 1 APPPATH\Views\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: is_login', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 69, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Shop.php(23): view('header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 11:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-09 11:28:09 --> Undefined variable: is_login
+in APPPATH\Views\header.php on line 69.
+ 1 APPPATH\Views\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: is_login', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 69, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Shop.php(16): view('header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 11:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-09 11:28:12 --> Undefined variable: is_login
+in APPPATH\Views\header.php on line 69.
+ 1 APPPATH\Views\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: is_login', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php', 69, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\Shop.php(16): view('header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 11:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 11:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 13:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

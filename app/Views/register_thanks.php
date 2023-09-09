@@ -18,7 +18,7 @@
               <li><a href="account-orders.html">Account</a>
               </li>
               <li class="separator">&nbsp;</li>
-              <li>Register Successfully</li>
+             
             </ul>
           </div>
         </div>

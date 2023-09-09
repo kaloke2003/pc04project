@@ -62,11 +62,20 @@
 						<div class="col-md-6 col-sm-8">
 							<div class="right-header">
 								<ul>
-									<li><a href="account"><i class="fa fa-user"></i>My account</a></li>
 									<li><a href="wishlist"><i class="fa fa-heart"></i>My wishlist</a></li>
 									<li><a href="checkout"><i class="fa fa-usd"></i>Creck out</a></li>
-									<li><a href="login"><i class="fa fa-lock"></i>Login</a></li>
-                                    <li><a href="<?=base_url('logout')?>" value="alert" onclick="alert('Logout Successfully')"> <i class="fa fa-unlock"></i>Logout</a></li>
+                                    <?php
+                                    if($is_login) {
+                                    ?>
+                                    <li><a href="account"><i class="fa fa-user"></i><?=$name?></a></li>
+                                    <li><a href="<?=base_url('logout')?>"> <i class="fa fa-unlock"></i>Logout</a></li>
+                                    <?php
+                                    } else {
+                                    ?>
+									<li><a href="login"><i class="fa fa-lock"></i>Login/Register</a></li>
+                                    <?php
+                                    }
+                                    ?>
                                     
 								</ul>
 							</div>

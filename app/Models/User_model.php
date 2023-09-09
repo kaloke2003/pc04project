@@ -12,6 +12,7 @@ class User_model extends Model {
         "name",
         "email",
         "password",
+        "token",
         "created_date",
         "modified_date",
         "is_deleted",
