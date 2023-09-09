@@ -1,0 +1,174 @@
+CRITICAL - 2023-08-30 08:50:26 --> Undefined index: name
+in APPPATH\Controllers\Frontend.php on line 45.
+ 1 APPPATH\Controllers\Frontend.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Frontend.php', 45, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 08:54:45 --> Undefined index: name
+in APPPATH\Controllers\Frontend.php on line 45.
+ 1 APPPATH\Controllers\Frontend.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Frontend.php', 45, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 08:55:58 --> Undefined index: name
+in APPPATH\Controllers\Frontend.php on line 45.
+ 1 APPPATH\Controllers\Frontend.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Frontend.php', 45, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 08:59:02 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:01:28 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:01:38 --> Undefined variable: User_model
+in APPPATH\Controllers\Frontend.php on line 61.
+ 1 APPPATH\Controllers\Frontend.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: User_model', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Frontend.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:02:01 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:03:00 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:03:35 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:04:10 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:04:40 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:05:57 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:09:17 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:10:02 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:11:12 --> Class 'App\Controllers\User_new_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:16:55 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:18:52 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:21:51 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:22:28 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:23:34 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:25:41 --> Use of undefined constant register_submit - assumed 'register_submit' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Frontend.php on line 50.
+ 1 APPPATH\Controllers\Frontend.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant register_submit - assumed \'register_submit\' (this will throw an Error in a future version of PHP)', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Frontend.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:27:16 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Frontend.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:30:07 --> Undefined property: App\Controllers\Frontend::$load
+in APPPATH\Controllers\Frontend.php on line 50.
+ 1 APPPATH\Controllers\Frontend.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Frontend::$load', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Frontend.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->register_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:32:47 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Login.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:35:10 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Login.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:35:12 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Login.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:35:32 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Login.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-30 09:35:40 --> Class 'App\Controllers\User_model' not found
+in APPPATH\Controllers\Login.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

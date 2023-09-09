@@ -1,0 +1,247 @@
+CRITICAL - 2023-09-04 19:26:24 --> Undefined property: App\Controllers\Shop::$load
+in APPPATH\Controllers\Shop.php on line 10.
+ 1 APPPATH\Controllers\Shop.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Shop::$load', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Shop.php', 10, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:30:07 --> Class 'App\Controllers\Product_model' not found
+in APPPATH\Controllers\Shop.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:30:08 --> Class 'App\Controllers\Product_model' not found
+in APPPATH\Controllers\Shop.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:30:09 --> Class 'App\Controllers\Product_model' not found
+in APPPATH\Controllers\Shop.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:30:09 --> Class 'App\Controllers\Product_model' not found
+in APPPATH\Controllers\Shop.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:30:09 --> Class 'App\Controllers\Product_model' not found
+in APPPATH\Controllers\Shop.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:30:09 --> Class 'App\Controllers\Product_model' not found
+in APPPATH\Controllers\Shop.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:30:25 --> Class 'App\Controllers\Product_model' not found
+in APPPATH\Controllers\Shop.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:31:14 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(16): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:33:00 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(18): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:33:01 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(18): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:33:01 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(18): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:33:02 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(18): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:35:24 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(17): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:35:25 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(17): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:36:05 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(17): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:37:28 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(17): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:37:29 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(17): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:37:29 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(17): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:38:31 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(17): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:38:31 --> Undefined variable: productList
+in APPPATH\Views\shop.php on line 211.
+ 1 APPPATH\Views\shop.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productList', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 211, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(17): view('shop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:44:27 --> Undefined index: images
+in APPPATH\Views\shop.php on line 220.
+ 1 APPPATH\Views\shop.php(220): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: images', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 220, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(16): view('shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 19:49:35 --> Undefined index: id
+in APPPATH\Views\shop.php on line 212.
+ 1 APPPATH\Views\shop.php(212): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php', 212, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('shop', [], true)
+ 5 APPPATH\Controllers\Shop.php(16): view('shop', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Shop->shop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 20:21:27 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::alert()
+in APPPATH\Controllers\Login.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->register_submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-04 20:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 20:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 20:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-04 20:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-04 20:38:21 --> Undefined variable: user_name
+in APPPATH\Views\account.php on line 1.
+ 1 APPPATH\Views\account.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_name', 'C:\\xampp\\htdocs\\pc04project\\app\\Views\\account.php', 1, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pc04project\\app\\Views\\account.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('account', [], true)
+ 5 APPPATH\Controllers\Frontend.php(33): view('account')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->account()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 20:40:53 --> Too few arguments to function App\Controllers\Frontend::account(), 0 passed in C:\xampp\htdocs\pc04project\system\CodeIgniter.php on line 932 and exactly 2 expected
+in APPPATH\Controllers\Frontend.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->account()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 20:41:17 --> Too few arguments to function App\Controllers\Frontend::account(), 0 passed in C:\xampp\htdocs\pc04project\system\CodeIgniter.php on line 932 and exactly 2 expected
+in APPPATH\Controllers\Frontend.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Frontend->account()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -157,5 +157,6 @@
         <script src="<?=base_url('template')?>/js/plugins.js"></script>
 		<!-- main js -->
         <script src="<?=base_url('template')?>/js/main.js"></script>
+
     </body>
 </html>

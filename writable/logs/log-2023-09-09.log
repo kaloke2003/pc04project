@@ -1,0 +1,100 @@
+CRITICAL - 2023-09-09 10:05:32 --> Invalid file: "backend.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('backend', [], true)
+ 3 APPPATH\Controllers\Admin.php(9): view('backend')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:08:09 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 9.
+ 1 APPPATH\Controllers\Admin.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 9, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:08:41 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 9.
+ 1 APPPATH\Controllers\Admin.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 9, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:08:42 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 9.
+ 1 APPPATH\Controllers\Admin.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 9, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:08:42 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 9.
+ 1 APPPATH\Controllers\Admin.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 9, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:08:42 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 9.
+ 1 APPPATH\Controllers\Admin.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 9, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:08:57 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 11.
+ 1 APPPATH\Controllers\Admin.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 11, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:08:58 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 11.
+ 1 APPPATH\Controllers\Admin.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 11, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:08:59 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 11.
+ 1 APPPATH\Controllers\Admin.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 11, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:08:59 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 11.
+ 1 APPPATH\Controllers\Admin.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 11, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:09:15 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 20.
+ 1 APPPATH\Controllers\Admin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 20, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:09:15 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 20.
+ 1 APPPATH\Controllers\Admin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 20, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:09:16 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 20.
+ 1 APPPATH\Controllers\Admin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 20, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 10:09:16 --> Undefined property: App\Controllers\Admin::$data
+in APPPATH\Controllers\Admin.php on line 20.
+ 1 APPPATH\Controllers\Admin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Admin::$data', 'C:\\xampp\\htdocs\\pc04project\\app\\Controllers\\Admin.php', 20, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->backend()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -33,8 +33,6 @@ $routes->get('/', 'Home::index');
 
 $routes->get('/home', 'Frontend::home');
 
-$routes->get('/shop', 'Frontend::shop');
-
 $routes->get('/blog', 'Frontend::blog');
 
 $routes->get('/about', 'Frontend::about');
@@ -48,6 +46,9 @@ $routes->get('/wishlist', 'Frontend::wishlist');
 $routes->get('/account', 'Frontend::account');
 
 $routes->get('/dashboard', 'Backend::index');
+
+//product
+$routes->get('/shop', 'Shop::shop');
 
 //user
 $routes->get('/user_manage', 'Backend::user_manage');
@@ -64,7 +65,14 @@ $routes->get('/product_del/(:num)', 'Backend::product_del/$1');
 $routes->post('/product_submit', 'Backend::product_submit');
 
 //Login/register
-$routes->get('/login', 'Frontend::login');
+$routes->get('/login', 'Login::login');
+$routes->post('/login_submit', 'Login::login_submit');
+$routes->get('/login_thanks', 'Login::login_thanks');
+$routes->post('/register_submit', 'Login::register_submit');
+$routes->get('/register_thanks', 'Login::register_thanks');
+$routes->get('/logout', 'Login::logout');
+
+//admin
 
 
 

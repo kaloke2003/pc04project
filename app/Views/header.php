@@ -66,6 +66,8 @@
 									<li><a href="wishlist"><i class="fa fa-heart"></i>My wishlist</a></li>
 									<li><a href="checkout"><i class="fa fa-usd"></i>Creck out</a></li>
 									<li><a href="login"><i class="fa fa-lock"></i>Login</a></li>
+                                    <li><a href="<?=base_url('logout')?>" value="alert" onclick="alert('Logout Successfully')"> <i class="fa fa-unlock"></i>Logout</a></li>
+                                    
 								</ul>
 							</div>
 						</div>
@@ -85,42 +87,11 @@
 							    <div class="mainmenu clearfix hidden-sm hidden-xs">
                                     <nav>
                                         <ul>
-                                            <li><a href="shop">Shop</a>
-                                                <div class="magamenu ">
-                                                    <ul class="again">
-                                                        <li class="single-menu colmd4">
-                                                            <span>men’s wear</span>
-                                                            <a href="<?=base_url('template')?>/#">shirts & top</a>
-                                                            <a href="<?=base_url('template')?>/#">shoes</a>
-                                                            <a href="<?=base_url('template')?>/#">dresses</a>
-                                                            <a href="<?=base_url('template')?>/#">shwmwear</a>
-                                                        </li>
-                                                        <li class="single-menu colmd4">
-                                                            <span>women’s wear</span>
-                                                            <a href="<?=base_url('template')?>/#">shirts & tops</a>
-                                                            <a href="<?=base_url('template')?>/#">shoes</a>
-                                                            <a href="<?=base_url('template')?>/#">dresses</a>
-                                                            <a href="<?=base_url('template')?>/#">shwmwear</a>
-                                                        </li>
-                                                        <li class="single-menu colmd4">
-                                                            <span>accessories</span>
-                                                            <a href="<?=base_url('template')?>/#">sunglasses</a>
-                                                            <a href="<?=base_url('template')?>/#">leather</a>
-                                                            <a href="<?=base_url('template')?>/#">belts</a>
-                                                            <a href="<?=base_url('template')?>/#">rings</a>
-                                                        </li>
-                                                        <li class="single-menu colmd4 colmd5">
-                                                            <a href="<?=base_url('template')?>/#">
-                                                                <img alt="" src="<?=base_url('template')?>/img/maga-banner.png">
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                            
+                                            <li><a href="shop">Shop</a></li>   
                                             <li><a href="blog">Blog</a></li>
                                             <li><a href="about">About</a></li>
                                             <li><a href="contact">Contact</a></li>
+                                           
                                         </ul>
                                     </nav>
                                 </div>
@@ -285,7 +256,7 @@
                                                         <li><a href="<?=base_url('template')?>/about-us.html">About</a></li>
                                                         <li><a href="<?=base_url('template')?>/blog.html">Blog</a></li>
                                                         <li><a href="<?=base_url('template')?>/blog-details.html">Blog Details</a></li>
-                                                        <li><a href="<?=base_url('template')?>/checkout.html">Checkout</a></li>
+                                                        <li><a href="checkout">Checkout</a></li>
                                                         <li><a href="<?=base_url('template')?>/contact.html">Contact</a></li>
                                                         <li><a href="<?=base_url('template')?>/login.html">Login</a></li>
                                                         <li><a href="<?=base_url('template')?>/my-account.html">My Account</a></li>
@@ -347,7 +318,7 @@
                                                     </div>
                                                 </li>
                                                 <li class="checkout-btn text-center">
-                                                    <a href="<?=base_url('template')?>/checkout.html">Check out</a>
+                                                    <a href="checkout">Check out</a>
                                                 </li>
                                             </ul>
                                         </li>

@@ -12,9 +12,8 @@ use Psr\Log\LoggerInterface;
 use App\Models\User_model;
 use App\Models\Product_model;
 use App\Models\Cart_model;
+use App\Models\Admin_model;
 
-use App\Models\Sales_order_model;
-use App\Models\Sales_order_details_model;
 
 class Backend extends BaseController
 {

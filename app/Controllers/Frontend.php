@@ -12,10 +12,6 @@ class Frontend extends BaseController
     {
         return view('header').view('blog').view('footer');
     }
-    public function shop()
-    {
-        return view('header').view('shop').view('footer');
-    }
     public function about()
     {
         return view('header').view('about').view('footer');
@@ -23,10 +19,6 @@ class Frontend extends BaseController
     public function contact()
     {
         return view('header').view('contact').view('footer');
-    }
-    public function login()
-    {
-        return view('header').view('login').view('footer');
     }
     public function checkout()
     {
@@ -40,4 +32,6 @@ class Frontend extends BaseController
     {
         return view('header').view('account').view('footer');
     }
+    
+
 }
