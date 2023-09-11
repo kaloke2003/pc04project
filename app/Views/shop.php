@@ -233,245 +233,72 @@
                                                                     </span>
                                                                 </div>
                                                             </div>
+                                                            <div class='actions-btn'>
+                                        <a href='<?=base_url('template')' data-placement='top' data-target='#quick-view' data-trigger='hover' data-toggle='modal' data-original-title='Quick View'><i class='fa fa-eye'></i></a>
+                                        <a data-placement='top' data-toggle='tooltip' href='<?=base_url('template')' data-original-title='Add To Wishlist'><i class='fa fa-heart'></i></a>
+                                        <a title='' data-placement='top' data-toggle='tooltip' href='<?=base_url('template')' data-original-title='Compare'><i class='fa fa-retweet'></i></a>
+                                        <a href='<?=base_url('template')' data-toggle='tooltip' data-placement='top' title='Add To Cart'><i class='fa fa-shopping-cart'></i></a>
+                                        </div>
                                                         </div>
                                                     </div>";
                                                 }
                                                 ?>
-
-                                                    
-                                                    <!-- single-product end -->			
-                                                    
-                                                    
-                                               <!--deleted--><!--deleted-->
-
-                                                    
                                                 </div>
                                             </div>
                                         </div>
-                                        <div role="tabpanel" class="tab-pane" id="profile">
-                                            <div class="row">
-                                                <div class="li-item">
-                                                    <div class="col-md-4 col-sm-4">
-                                                        <div class="tb-product-item-inner tb2 pct-last">
-                                                            <div class="pro-type">
+
+                                        <?php
+                                                foreach($productList as $v) {
+                                                $url = base_url('product_detail/'.$v['product_id']);
+                                                  echo"
+                                        <div role='tabpanel' class='tab-pane' id='profile'>
+                                            <div class='row'>
+                                                <div class='li-item'>
+                                                    <div class='col-md-4 col-sm-4'>
+                                                        <div class='tb-product-item-inner tb2 pct-last'>
+                                                            <div class='pro-type'>
                                                                 <span>new</span>
                                                             </div>
-                                                            <div class="re-img">
-                                                                <a href="<?=base_url('template')?>/#"><img alt="" src="<?=base_url('template')?>/img/products/1.jpg"></a>
+                                                            <div class='re-img'>
+                                                                <a href=''><img alt='' src='".$v['img']."'></a>
                                                             </div>
-                                                            <div class="actions-btn">
-                                                                <a data-original-title="Quick View" data-toggle="modal" data-trigger="hover" data-target="#quick-view" data-placement="top" href="<?=base_url('template')?>/#">
-                                                                <i class="fa fa-eye"></i>
+                                                            <div class='actions-btn'>
+                                                                <a data-original-title='Quick View' data-toggle='modal' data-trigger='hover' data-target='#quick-view' data-placement='top' href='<?=base_url('template')?>
+                                                                <i class='fa fa-eye'></i>
                                                                 </a>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-8 col-sm-8">
-                                                        <div class="f-fix">
-                                                            <div class="tb-beg">
-                                                                <a href="<?=base_url('template')?>/#">Vintage Shoulder Bag</a>
+                                                    <div class='col-md-8 col-sm-8'>
+                                                        <div class='f-fix'>
+                                                            <div class='tb-beg'>
+                                                                <a href='<?=base_url('template')?>".$v['title']."</a>
                                                             </div>
-                                                            <div class="tb-product-wrap-price-rating">
-                                                                <div class="tb-product-price font-noraure-3">
-                                                                    <span class="amount2 ana">$79.00 - </span>
-                                                                    <span class="amount2 ana">$100.00</span>
+                                                            <div class='tb-product-wrap-price-rating'>
+                                                                <div class='tb-product-price font-noraure-3'>
+                                                                    <span class='amount2 ana'>".$v['price']."</span>
                                                                 </div>
                                                             </div>
-                                                            <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo  </p>
-                                                            <div class="last-cart l-mrgn ns">
-                                                                <a class="las4" href="<?=base_url('template')?>/#">Add To Cart</a>
+                                                            <p class='desc'>".$v['detail']."</p>
+                                                            <div class='last-cart l-mrgn ns'>
+                                                                <a class='las4' href='<?=base_url('template')?>Add To Cart</a>
                                                             </div>
-                                                            <div class="tb-product-btn">
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-eye"></i>
+                                                            <div class='tb-product-btn'>
+                                                                <a href='<?=base_url('template')?>
+                                                                    <i class='fa fa-eye'></i>
                                                                 </a>
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-heart"></i>
+                                                                <a href='<?=base_url('template')?>
+                                                                    <i class='fa fa-heart'></i>
                                                                 </a>
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-retweet"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="li-item">
-                                                    <div class="col-md-4 col-sm-4">
-                                                        <div class="tb-product-item-inner tb2 pct-last">
-                                                            <div class="pro-type">
-                                                                <span>sale</span>
-                                                            </div>
-                                                            <div class="re-img">
-                                                                <a href="<?=base_url('template')?>/#"><img alt="" src="<?=base_url('template')?>/img/products/2.jpg"></a>
-                                                            </div>
-                                                            <div class="actions-btn">
-                                                                <a data-original-title="Quick View" data-toggle="modal" data-trigger="hover" data-target="#quick-view" data-placement="top" href="<?=base_url('template')?>/#">
-                                                                <i class="fa fa-eye"></i>
+                                                                <a href='<?=base_url('template')?>
+                                                                    <i class='fa fa-retweet'></i>
                                                                 </a>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-8 col-sm-8">
-                                                        <div class="f-fix">
-                                                            <div class="tb-beg">
-                                                                <a href="<?=base_url('template')?>/#">Vintage Shoulder Bag</a>
-                                                            </div>
-                                                            <div class="tb-product-wrap-price-rating">
-                                                                <div class="tb-product-price font-noraure-3">
-                                                                    <span class="amount2 ana">$79.00 - </span>
-                                                                    <span class="amount2 ana">$100.00</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo  </p>
-                                                            <div class="last-cart l-mrgn ns">
-                                                                <a class="las4" href="<?=base_url('template')?>/#">Add To Cart</a>
-                                                            </div>
-                                                            <div class="tb-product-btn">
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-eye"></i>
-                                                                </a>
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-heart"></i>
-                                                                </a>
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-retweet"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="li-item">
-                                                    <div class="col-md-4 col-sm-4">
-                                                        <div class="tb-product-item-inner tb2 pct-last">
-                                                            <div class="pro-type">
-                                                                <span>new</span>
-                                                            </div>
-                                                            <div class="re-img">
-                                                                <a href="<?=base_url('template')?>/#"><img alt="" src="<?=base_url('template')?>/img/products/3.jpg"></a>
-                                                            </div>
-                                                            <div class="actions-btn">
-                                                                <a data-original-title="Quick View" data-toggle="modal" data-trigger="hover" data-target="#quick-view" data-placement="top" href="<?=base_url('template')?>/#">
-                                                                <i class="fa fa-eye"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-8 col-sm-8">
-                                                        <div class="f-fix">
-                                                            <div class="tb-beg">
-                                                                <a href="<?=base_url('template')?>/#">Vintage Shoulder Bag</a>
-                                                            </div>
-                                                            <div class="tb-product-wrap-price-rating">
-                                                                <div class="tb-product-price font-noraure-3">
-                                                                    <span class="amount2 ana">$79.00 - </span>
-                                                                    <span class="amount2 ana">$100.00</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo  </p>
-                                                            <div class="last-cart l-mrgn ns">
-                                                                <a class="las4" href="<?=base_url('template')?>/#">Add To Cart</a>
-                                                            </div>
-                                                            <div class="tb-product-btn">
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-eye"></i>
-                                                                </a>
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-heart"></i>
-                                                                </a>
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-retweet"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="li-item">
-                                                    <div class="col-md-4 col-sm-4">
-                                                        <div class="tb-product-item-inner tb2 pct-last">
-                                                            <div class="pro-type">
-                                                                <span>sale</span>
-                                                            </div>
-                                                            <div class="re-img">
-                                                                <a href="<?=base_url('template')?>/#"><img alt="" src="<?=base_url('template')?>/img/products/4.jpg"></a>
-                                                            </div>
-                                                            <div class="actions-btn">
-                                                                <a data-original-title="Quick View" data-toggle="modal" data-trigger="hover" data-target="#quick-view" data-placement="top" href="<?=base_url('template')?>/#">
-                                                                <i class="fa fa-eye"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-8 col-sm-8">
-                                                        <div class="f-fix">
-                                                            <div class="tb-beg">
-                                                                <a href="<?=base_url('template')?>/#">Vintage Shoulder Bag</a>
-                                                            </div>
-                                                            <div class="tb-product-wrap-price-rating">
-                                                                <div class="tb-product-price font-noraure-3">
-                                                                    <span class="amount2 ana">$79.00 - </span>
-                                                                    <span class="amount2 ana">$100.00</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo  </p>
-                                                            <div class="last-cart l-mrgn ns">
-                                                                <a class="las4" href="<?=base_url('template')?>/#">Add To Cart</a>
-                                                            </div>
-                                                            <div class="tb-product-btn">
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-eye"></i>
-                                                                </a>
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-heart"></i>
-                                                                </a>
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-retweet"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="li-item">
-                                                    <div class="col-md-4 col-sm-4">
-                                                        <div class="tb-product-item-inner tb2 pct-last">
-                                                            <div class="re-img">
-                                                                <a href="<?=base_url('template')?>/#"><img alt="" src="<?=base_url('template')?>/img/products/5.jpg"></a>
-                                                            </div>
-                                                            <div class="actions-btn">
-                                                                <a data-original-title="Quick View" data-toggle="modal" data-trigger="hover" data-target="#quick-view" data-placement="top" href="<?=base_url('template')?>/#">
-                                                                <i class="fa fa-eye"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-8 col-sm-8">
-                                                        <div class="f-fix">
-                                                            <div class="tb-beg">
-                                                                <a href="<?=base_url('template')?>/#">Vintage Shoulder Bag</a>
-                                                            </div>
-                                                            <div class="tb-product-wrap-price-rating">
-                                                                <div class="tb-product-price font-noraure-3">
-                                                                    <span class="amount2 ana">$79.00 - </span>
-                                                                    <span class="amount2 ana">$100.00</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo  </p>
-                                                            <div class="last-cart l-mrgn ns">
-                                                                <a class="las4" href="<?=base_url('template')?>/#">Add To Cart</a>
-                                                            </div>
-                                                            <div class="tb-product-btn">
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-eye"></i>
-                                                                </a>
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-heart"></i>
-                                                                </a>
-                                                                <a href="<?=base_url('template')?>/#">
-                                                                    <i class="fa fa-retweet"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                </div>";
+                                            }
+                                            ?>
                                             </div>	
                                         </div>
                                     </div>
