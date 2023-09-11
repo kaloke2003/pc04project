@@ -9,6 +9,7 @@ class User_model extends Model {
     protected $table = "user";
     protected $primaryKey = "user_id";
     protected $allowedFields = [
+        "level",
         "name",
         "email",
         "password",

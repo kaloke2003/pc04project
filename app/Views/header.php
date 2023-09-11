@@ -70,6 +70,11 @@
                                     <li><a href="account"><i class="fa fa-user"></i><?=$name?></a></li>
                                     <li><a href="<?=base_url('logout')?>"> <i class="fa fa-unlock"></i>Logout</a></li>
                                     <?php
+                                    if($level == 1) {
+                                    echo '<li><a href="'.base_url('dashboard').'"> <i class="icon-unlock"></i>Admin Portal</a></li>';
+                                    }
+                                    ?>
+                                    <?php
                                     } else {
                                     ?>
 									<li><a href="login"><i class="fa fa-lock"></i>Login/Register</a></li>

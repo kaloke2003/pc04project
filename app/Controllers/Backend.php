@@ -32,13 +32,19 @@ class Backend extends BaseController
         $session = \Config\Services::session();
         $token = $session->get("token");
         $name = $session->get("name");
+        $level = $session->get("level");
 
-        if(empty($token)) {
+        if(empty($token) && $level != 1) {
             $this->data['is_login'] = false;
+            echo "<h1>You are not authorised to enter this area</h1>";
+            echo '<a href="'.base_url('login').'">Please Log in with admin account</a>';
+            exit;
+        
         } else {
             $this->data['is_login'] = true;
             $this->data['name'] = $name;
             $this->data['token'] = $token;
+            $this->data['level'] = $level;
         }
 
 
@@ -168,6 +174,7 @@ class Backend extends BaseController
         $name = $_POST['name'];
         $email = $_POST['email'];
         $password = $_POST['password'];
+        $level = $_POST['level'];
         // print_r($_POST);
         // exit;
 
@@ -185,12 +192,13 @@ class Backend extends BaseController
 
         } else {
 
-            if(empty($pwd)) {
+            if(empty($password)) {
 
                 $user_model->update($id, [
                     'name' => $name,
                     'email' => $email,
                     'password' => $password,
+                    'level' => $level,
                     'modified_date' => date("Y-m-d H:i:s")
                 ]);
 
@@ -200,6 +208,7 @@ class Backend extends BaseController
                     'name' => $name,
                     'email' => $email,
                     'password' => $password,
+                    'level' => $level,
                     'modified_date' => date("Y-m-d H:i:s")
                 ]);
 
@@ -222,126 +231,6 @@ class Backend extends BaseController
         return redirect()->to("/user_manage");
 
     }
-
-    //so
-
-    //user manage
-    public function so_manage(){
-
-        $so_model = new Sales_order_model();
-        $soList = $so_model->where(['is_deleted'=>0])->findAll();
-        $this->data['soList'] = $soList;
-
-        return view('admin/header', $this->data).view('admin/so_list', $this->data).view('admin/footer', $this->data);
-
-    }
-
-    
-    //can be used for add and edit
-    public function so_add($id=""){
-
-        if($id == "") {
-            $this->data['mode'] = "Add";
-        } else {
-            $this->data['mode'] = "Edit";
-
-            $so_model = new Sales_order_model();
-            $soData = $so_model->find($id);
-
-            $this->data['soData'] = $soData;
-
-            $sod_model = new Sales_order_details_model();
-            $sodList = $sod_model->where([
-                'so_id' => $id,
-                'is_deleted'=>0,
-            ])->findAll();
-           
-            $this->data['sodList'] = $sodList;
-
-        }
-        $this->data['id'] = $id;
-
-
-        return view('admin/header', $this->data).view('admin/so_add', $this->data).view('admin/footer', $this->data);
-
-    }
-    
-    //insert, update
-    public function so_submit(){
-
-        $mode = $_POST['mode'];
-        $id = $_POST['id'];
-        $firstname = $_POST['firstname'];
-        $lastname = $_POST['lastname'];
-        $email = $_POST['email'];
-        $phone = $_POST['phone'];
-        $pwd = $_POST['pwd'];
-        $level = $_POST['level'];
-        // print_r($_POST);
-        // exit;
-
-
-        $user_model = new User_model();
-
-        if($mode == "Add") {
-
-            $user_model->insert([
-                'firstname' => $firstname,
-                'lastname' => $lastname,
-                'email' => $email,
-                'phone' => $phone,
-                'pwd' => $pwd,
-                'level' => $level,
-                'created_date' => date("Y-m-d H:i:s")
-            ]);
-
-        } else {
-
-            if(empty($pwd)) {
-
-                $user_model->update($id, [
-                    'firstname' => $firstname,
-                    'lastname' => $lastname,
-                    'email' => $email,
-                    'phone' => $phone,
-                    'level' => $level,
-                    'modified_date' => date("Y-m-d H:i:s")
-                ]);
-
-            } else {
-
-                $user_model->update($id, [
-                    'firstname' => $firstname,
-                    'lastname' => $lastname,
-                    'email' => $email,
-                    'phone' => $phone,
-                    'pwd'   => $pwd,
-                    'level' => $level,
-                    'modified_date' => date("Y-m-d H:i:s")
-                ]);
-
-            }
-
-        
-        }
-        return redirect()->to("/user_manage");
-
-    }
-
-    
-    public function so_del($id) {
-        //delete
-        $user_model = new User_model();
-        $user_model->update($id, [
-            'is_deleted' => 1,
-            'modified_date' => date("Y-m-d H:i:s")
-        ]);
-        return redirect()->to("/user_manage");
-
-    }
-
-    
-
-    
+  
 
 }

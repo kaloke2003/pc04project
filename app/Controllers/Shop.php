@@ -24,6 +24,7 @@ class Shop extends BaseController
         $session = \Config\Services::session();
         $token = $session->get("token");
         $name = $session->get("name");
+        $level = $session->get("level");
 
         if(empty($token)) {
             $this->data['is_login'] = false;
@@ -31,6 +32,7 @@ class Shop extends BaseController
             $this->data['is_login'] = true;
             $this->data['name'] = $name;
             $this->data['token'] = $token;
+            $this->data['level'] = $level;
         }
 
 

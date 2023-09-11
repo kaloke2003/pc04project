@@ -72,7 +72,6 @@ $routes->post('/register_submit', 'Login::register_submit');
 $routes->get('/register_thanks', 'Login::register_thanks');
 $routes->get('/logout', 'Login::logout');
 
-//admin
 
 
 

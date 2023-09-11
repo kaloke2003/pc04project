@@ -18,6 +18,7 @@
                                     <thead>
                                         <tr>
                                             <th>ID</th>
+                                            <th>Level</th>
                                             <th>Name</th>
                                             <th>Email</th>
                                             <th>Password</th>
@@ -28,9 +29,9 @@
                                     </thead>
                                     <tfoot>
                                     <tr>
-                                    <th>ID</th>
+                                            <th>ID</th>
+                                            <th>Level</th>
                                             <th>Name</th>
-                                            <th>Email</th>
                                             <th>Password</th>
                                             <th>Created date</th>
                                             <th></th>
@@ -42,6 +43,7 @@
                                         ?>
                                         <tr>
                                             <td><?=$v['user_id']?></td>
+                                            <td><?=$v['level']?></td>
                                             <td><?=$v['name']?></td>
                                             <td><?=$v['email']?></td>
                                             <td><?=$v['password']?></td>

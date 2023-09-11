@@ -17,6 +17,11 @@
                                 <form method="POST" action="<?=base_url('user_submit')?>">
                                     <input type="hidden" name="mode" value="<?=$mode?>" />
                                     <input type="hidden" name="id" value="<?=$id?>" />
+
+                                    <div class="form-group">
+                                        <label for="level">Level</label>
+                                        <input id="level" name="level" class="form-control" value="<?=isset($userData['level'])?$userData['level']:''?>"/>
+                                    </div>
                                     
                                     <div class="form-group">
                                         <label for="name">Name</label>
