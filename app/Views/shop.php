@@ -216,7 +216,7 @@
                                                                 <div class='pro-type'>
                                                                     <span>new</span>
                                                                 </div>
-                                                                <a href='".$url."'>
+                                                                <a href=''>
                                                                     <img src='".$v['img']."' weidth='400' height='350'/>
                                                                 </a>
                                                             </div>
@@ -238,6 +238,7 @@
                                         <a data-placement='top' data-toggle='tooltip' href='<?=base_url('template')' data-original-title='Add To Wishlist'><i class='fa fa-heart'></i></a>
                                         <a title='' data-placement='top' data-toggle='tooltip' href='<?=base_url('template')' data-original-title='Compare'><i class='fa fa-retweet'></i></a>
                                         <a href='<?=base_url('template')' data-toggle='tooltip' data-placement='top' title='Add To Cart'><i class='fa fa-shopping-cart'></i></a>
+                                        
                                         </div>
                                                         </div>
                                                     </div>";

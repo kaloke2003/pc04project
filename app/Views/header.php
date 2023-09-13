@@ -276,7 +276,7 @@
                                                         <li><a href="<?=base_url('template')?>/my-account.html">My Account</a></li>
                                                         <li><a href="<?=base_url('template')?>/shop.html">shop</a></li>
                                                         <li><a href="<?=base_url('template')?>/shop-list.html">Shop List</a></li>
-                                                        <li><a href="<?=base_url('template')?>/shopping-cart.html">Shopping-Cart</a></li>
+                                                        <li><a href="cart">Shopping-Cart</a></li>
                                                         <li><a href="<?=base_url('template')?>/single-product.html">Single Product</a></li>
                                                         <li><a href="<?=base_url('template')?>/wishlist.html">Wishlist</a></li>
                                                     </ul>
@@ -296,10 +296,10 @@
                                                 <button type="submit"><i class="pe-7s-search"></i></button>
                                             </form>
                                         </li>
-                                        <li><a href="<?=base_url('template')?>/cart.html"><i class="fa fa-shopping-cart"></i><span class="color1">2</span></a>
+                                        <li><a href="cart"><i class="fa fa-shopping-cart"></i><span class="color1">2</span></a>
                                             <ul class="drop-cart">
                                                 <li>
-                                                    <a href="<?=base_url('template')?>/cart.html"><img src="<?=base_url('template')?>/img/cart/1.png" alt="" /></a>
+                                                    <a href="cart"><img src="<?=base_url('template')?>/img/cart/1.png" alt="" /></a>
                                                     <div class="add-cart-text">
                                                         <p><a href="<?=base_url('template')?>/#">White Shirt</a></p>
                                                         <p>$50.00</p>
@@ -311,7 +311,7 @@
                                                     </div>
                                                 </li>
                                                 <li>
-                                                    <a href="<?=base_url('template')?>/cart.html"><img src="<?=base_url('template')?>/img/cart/2.png" alt="" /></a>
+                                                    <a href="cart"><img src="<?=base_url('template')?>/img/cart/2.png" alt="" /></a>
                                                     <div class="add-cart-text">
                                                         <p><a href="<?=base_url('template')?>/#">White Shirt</a></p>
                                                         <p>$50.00 x 2</p>
@@ -328,7 +328,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="goto text-center">
-                                                        <a href="<?=base_url('template')?>/cart.html"><strong>go to cart &nbsp;<i class="pe-7s-angle-right"></i></strong></a>
+                                                        <a href="cart"><strong>go to cart &nbsp;<i class="pe-7s-angle-right"></i></strong></a>
                                                     </div>
                                                 </li>
                                                 <li class="checkout-btn text-center">

@@ -49,6 +49,8 @@ $routes->get('/dashboard', 'Backend::index');
 
 //product
 $routes->get('/shop', 'Shop::shop');
+$routes->get('/cart', 'Shop::cart');
+
 
 //user
 $routes->get('/user_manage', 'Backend::user_manage');
@@ -72,7 +74,9 @@ $routes->post('/register_submit', 'Login::register_submit');
 $routes->get('/register_thanks', 'Login::register_thanks');
 $routes->get('/logout', 'Login::logout');
 
-
+//API
+$routes->post('/api/addCart', 'Api::addCart');
+$routes->get('/api/getCart/(:any)', 'Api::getCart/$1');
 
 
 

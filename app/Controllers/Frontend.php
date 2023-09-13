@@ -9,6 +9,12 @@ use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
 
+use App\Models\User_model;
+use App\Models\Product_model;
+use App\Models\Cart_model;
+
+
+
 class Frontend extends BaseController
 {
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
@@ -37,6 +43,10 @@ class Frontend extends BaseController
 
     public function home()
     {
+        $product_model = new Product_model();
+        $productList = $product_model->findAll();
+        $this->data['productList'] = $productList;
+
         return view('header', $this->data).view('home', $this->data).view('footer', $this->data);
     }
     public function blog()
@@ -63,6 +73,8 @@ class Frontend extends BaseController
     {
         return view('header', $this->data).view('account', $this->data).view('footer', $this->data);
     }
+
+    
     
 
 }
