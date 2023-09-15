@@ -158,5 +158,76 @@
 		<!-- main js -->
         <script src="<?=base_url('template')?>/js/main.js"></script>
 
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+		<script>
+
+var token = '<?=isset($token)?$token:''?>';
+
+function addCart(product_id, qty){
+
+  if(token == '') {
+	alert("Please login first");
+  } else {
+
+	//endpoint
+	$.post("<?=base_url('api/addCart')?>",{
+	  "product_id":product_id,
+	  "qty":qty,
+	  "token": token
+	},function(res){
+
+	  if(res=="OK") {
+		getCart();
+	  } else {
+		alert(res);
+	  }
+
+	});
+
+  }
+
+}
+
+
+function getCart(){
+
+  $("#cartList").html("");
+  $(".subtotal").html("$0");
+
+  if(token != '') {
+
+	$.getJSON("<?=base_url('api/getCart')?>/"+token,function(res){
+	  // success then render view
+
+	  $("#cartList").html("");
+	  var total_amount = 0;
+	  for(var i=0; i < res.length; i++) {
+
+		var html = $("<div>").html(`			<li>
+                                                    <a href="cart"><img src="${res[i].img}" alt="" /></a>
+                                                    <div class="add-cart-text">
+                                                        <p><a href="#">${res[i].title}</a></p>
+                                                        <p>$${res[i].unitprice} x ${res[i].qty}</p>
+                                                    </div>
+                                                </li>`);
+		$("#cartList").append(html);
+
+		total_amount += res[i].qty * res[i].unitprice;
+
+	  }
+
+	  $(".subtotal").html("$"+total_amount.toFixed(2));
+
+	});
+
+  }
+
+}
+
+getCart();
+
+</script>
+
     </body>
 </html>

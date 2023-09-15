@@ -12,7 +12,7 @@ class Cart_model extends Model {
         "user_id",
         "product_id",
         "qty",
-        "price",
+        "unitprice",
         "is_deleted",
         "created_date",
         "modified_date"

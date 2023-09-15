@@ -296,35 +296,14 @@
                                                 <button type="submit"><i class="pe-7s-search"></i></button>
                                             </form>
                                         </li>
-                                        <li><a href="cart"><i class="fa fa-shopping-cart"></i><span class="color1">2</span></a>
+                                        <li><a href="cart"><i class="fa fa-shopping-cart"></i><span class="color1">0</span></a>
                                             <ul class="drop-cart">
-                                                <li>
-                                                    <a href="cart"><img src="<?=base_url('template')?>/img/cart/1.png" alt="" /></a>
-                                                    <div class="add-cart-text">
-                                                        <p><a href="<?=base_url('template')?>/#">White Shirt</a></p>
-                                                        <p>$50.00</p>
-                                                        <span>Color : Blue</span>
-                                                        <span>Size   : SL</span>
-                                                    </div>
-                                                    <div class="pro-close">
-                                                        <i class="pe-7s-close"></i>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <a href="cart"><img src="<?=base_url('template')?>/img/cart/2.png" alt="" /></a>
-                                                    <div class="add-cart-text">
-                                                        <p><a href="<?=base_url('template')?>/#">White Shirt</a></p>
-                                                        <p>$50.00 x 2</p>
-                                                        <span>Color : Blue</span>
-                                                        <span>Size   : SL</span>
-                                                    </div>
-                                                    <div class="pro-close">
-                                                        <i class="pe-7s-close"></i>
-                                                    </div>
-                                                </li>
+                                            <div id="cartList">
+                  
+                                            </div>
                                                 <li class="total-amount clearfix">
                                                     <span class="floatleft">total</span>
-                                                    <span class="floatright"><strong>= $150.00</strong></span>
+                                                    <span class="floatright subtotal">$150.00</span>
                                                 </li>
                                                 <li>
                                                     <div class="goto text-center">

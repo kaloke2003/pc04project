@@ -207,23 +207,23 @@
                                             <div class="row">
                                                 <div class="shop-tab">
  <!-- single-product start --><!-- foreach here-->
-                                                <?php
-                                                foreach($productList as $v) {
-                                                $url = base_url('product_detail/'.$v['product_id']);
-                                                  echo  "<div class='col-md-4 col-lg-4 col-sm-6'>
+ <?php
+          foreach($productList as $v) {
+          ?>
+                                                  <div class='col-md-4 col-lg-4 col-sm-6'>
                                                         <div class='single-product'>
                                                             <div class='product-img'>
                                                                 <div class='pro-type'>
                                                                     <span>new</span>
                                                                 </div>
                                                                 <a href=''>
-                                                                    <img src='".$v['img']."' weidth='400' height='350'/>
+                                                                    <img src='<?=$v['img']?>' weidth='400' height='350'/>
                                                                 </a>
                                                             </div>
                                                             <div class='product-dsc'>
-                                                                <h3><a href='<?=base_url('template')?>".$v['title']."</a></h3>
+                                                                <h3><a href=''><?=$v['title']?></a></h3>
                                                                 <div class='star-price'>
-                                                                    <span class='price-left'>".$v['price']."</span>
+                                                                    <span class='price-left'>$<?=$v['price']?></span>
                                                                     <span class='star-right'>
                                                                         <i class='fa fa-star'></i>
                                                                         <i class='fa fa-star'></i>
@@ -233,25 +233,24 @@
                                                                     </span>
                                                                 </div>
                                                             </div>
-                                                            <div class='actions-btn'>
-                                        <a href='<?=base_url('template')' data-placement='top' data-target='#quick-view' data-trigger='hover' data-toggle='modal' data-original-title='Quick View'><i class='fa fa-eye'></i></a>
-                                        <a data-placement='top' data-toggle='tooltip' href='<?=base_url('template')' data-original-title='Add To Wishlist'><i class='fa fa-heart'></i></a>
-                                        <a title='' data-placement='top' data-toggle='tooltip' href='<?=base_url('template')' data-original-title='Compare'><i class='fa fa-retweet'></i></a>
-                                        <a href='<?=base_url('template')' data-toggle='tooltip' data-placement='top' title='Add To Cart'><i class='fa fa-shopping-cart'></i></a>
-                                        
-                                        </div>
+                                                            <div class="actions-btn">
+                                                                <a href="#" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Quick View"><i class="fa fa-eye"></i></a>
+                                                                <a data-placement="top" data-toggle="tooltip" href="#" data-original-title="Add To Wishlist"><i class="fa fa-heart"></i></a>
+                                                                <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Compare"><i class="fa fa-retweet"></i></a>
+                                                                <a href="#"  onclick="addCart(<?=$v['product_id']?>, 1)" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="fa fa-shopping-cart"></i></a>
+                                                            </div>
                                                         </div>
-                                                    </div>";
-                                                }
-                                                ?>
+                                                    </div>
+                                                    <?php
+                                                     }
+                                                        ?>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <?php
+                                                <?php
                                                 foreach($productList as $v) {
-                                                $url = base_url('product_detail/'.$v['product_id']);
-                                                  echo"
+                                                ?>
                                         <div role='tabpanel' class='tab-pane' id='profile'>
                                             <div class='row'>
                                                 <div class='li-item'>
@@ -261,11 +260,11 @@
                                                                 <span>new</span>
                                                             </div>
                                                             <div class='re-img'>
-                                                                <a href=''><img alt='' src='".$v['img']."'></a>
+                                                                <a href=''><img alt='' src='<?=$v['img']?>'></a>
                                                             </div>
-                                                            <div class='actions-btn'>
-                                                                <a data-original-title='Quick View' data-toggle='modal' data-trigger='hover' data-target='#quick-view' data-placement='top' href='<?=base_url('template')?>
-                                                                <i class='fa fa-eye'></i>
+                                                            <div class="actions-btn">
+                                                                <a data-original-title="Quick View" data-toggle="modal" data-trigger="hover" data-target="#quick-view" data-placement="top" href="#">
+                                                                <i class="fa fa-eye"></i>
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -273,33 +272,34 @@
                                                     <div class='col-md-8 col-sm-8'>
                                                         <div class='f-fix'>
                                                             <div class='tb-beg'>
-                                                                <a href='<?=base_url('template')?>".$v['title']."</a>
+                                                            <a href=''><?=$v['title']?></a>
                                                             </div>
                                                             <div class='tb-product-wrap-price-rating'>
                                                                 <div class='tb-product-price font-noraure-3'>
-                                                                    <span class='amount2 ana'>".$v['price']."</span>
+                                                                    <span class='amount2 ana'>$<?=$v['price']?></span>
                                                                 </div>
                                                             </div>
-                                                            <p class='desc'>".$v['detail']."</p>
+                                                            <p class='desc'><?=$v['detail']?></p>
                                                             <div class='last-cart l-mrgn ns'>
-                                                                <a class='las4' href='<?=base_url('template')?>Add To Cart</a>
+                                                                <a class='las4' href='' onclick="addCart(<?=$v['product_id']?>, 1)">Add To Cart</a>
                                                             </div>
-                                                            <div class='tb-product-btn'>
-                                                                <a href='<?=base_url('template')?>
-                                                                    <i class='fa fa-eye'></i>
+                                                            <div class="tb-product-btn">
+                                                                <a href="#">
+                                                                    <i class="fa fa-eye"></i>
                                                                 </a>
-                                                                <a href='<?=base_url('template')?>
-                                                                    <i class='fa fa-heart'></i>
+                                                                <a href="#">
+                                                                    <i class="fa fa-heart"></i>
                                                                 </a>
-                                                                <a href='<?=base_url('template')?>
-                                                                    <i class='fa fa-retweet'></i>
+                                                                <a href="#">
+                                                                    <i class="fa fa-retweet"></i>
                                                                 </a>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>";
+                                                </div>
+                                                <?php
                                             }
-                                            ?>
+                                               ?>
                                             </div>	
                                         </div>
                                     </div>
