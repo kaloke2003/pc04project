@@ -22,37 +22,30 @@
                                 <table id="shopping-cart-table" class="data-table cart-table">
                                     <tr>
                                         <th class="low1">Product</th>
-                                        <th class="low7">Quantity</th>
+                                
                                         <th class="low7">Price</th>
-                                        <th class="low7">Total</th>
                                     </tr>
 
                                    
-                                    
+                                    <?php
+          							foreach($cartList as $v) {
+          							?>
                                     <tr>
                                         <td class="sop-cart an-shop-cart">
-                                            <a href=""><img class="primary-image" alt="" src="<?=base_url('template')?>/img/products/10.jpg"></a>
-                                            <a href="">Vintage Lambskin</a>
+                                            <a href=""><img class="primary-image" alt="" src="<?=$v['img']?>"></a>
+                                            <a href=""><?=$v['title']?></a>
                                         </td>
-                                        <td class="sop-cart an-sh">
-                                            <div class="quantity ray">
-                                                <input class="input-text qty text" type="number" size="4" title="Qty" value="1" min="0" step="1">
-                                           
-                                            <a class="remove" href="<?=base_url('template')?>/<?=base_url('template')?>/#">
-                                                <span>X</span>
-                                            </a>
-                                            </div>
-                                        </td>
+                                        
                                         <td class="sop-cart">
                                             <div class="tb-product-price font-noraure-3">
-                                                <span class="amount">$180.00</span>
+                                                <span class="amount">$<?=$v['unitprice']?></span>
                                             </div>
                                         </td>
-                                        <td class="cen">
-                                            <span class="amount">$180.00</span>
-                                        </td>
+                                        
                                     </tr>
-                                   
+                                    <?php
+                                    }
+                                    ?>
                                     
                                 </table>
                             </div>
@@ -139,14 +132,14 @@
                                         <tr class="cart-subtotal">
                                             <th>Subtotal:</th>
                                             <td>
-                                                <span class="amount">$297.00</span>
+                                                <span class="amount subtotal">$297.00</span>
                                             </td>
                                         </tr>
                                         <tr class="order-total">
                                             <th>Total:</th>
                                             <td>
                                                 <strong>
-                                                    <span class="amount">$297.00</span>
+                                                    <span class="amount subtotal">$297.00</span>
                                                 </strong>
                                             </td>
                                         </tr>

@@ -296,7 +296,7 @@
                                                 <button type="submit"><i class="pe-7s-search"></i></button>
                                             </form>
                                         </li>
-                                        <li><a href="cart"><i class="fa fa-shopping-cart"></i><span class="color1">0</span></a>
+                                        <li><a href="cart"><i class="fa fa-shopping-cart"></i><span class="color1"></span></a>
                                             <ul class="drop-cart">
                                             <div id="cartList">
                   
