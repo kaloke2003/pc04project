@@ -21,6 +21,7 @@
                                             <th>img</th>
                                             <th>title</th>
                                             <th>price</th>
+                                            <th>Detail</th>
                                             <th>Created date</th>
                                             <th></th>
                                             
@@ -32,6 +33,7 @@
                                             <th>img</th>
                                             <th>title</th>
                                             <th>price</th>
+                                            <th>Detail</th>
                                             <th>Created date</th>
                                             <th></th>
                                         </tr>
@@ -45,6 +47,7 @@
                                             <td><img src="<?=$v['img']?>" style="width:100px;"/></td>
                                             <td><?=$v['title']?></td>
                                             <td><?=$v['price']?></td>
+                                            <td><?=$v['detail']?></td>
                                             <td><?=$v['created_date']?></td>  
                                             <td>
                                             <a href="<?=base_url('product_edit/'.$v['product_id'])?>">Edit</a>

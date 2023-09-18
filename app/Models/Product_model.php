@@ -12,6 +12,7 @@ class Product_model extends Model {
         "img",
         "title",
         "price",
+        "detail",
         "created_date",
         "modified_date",
         "is_deleted",

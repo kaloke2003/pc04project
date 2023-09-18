@@ -36,7 +36,7 @@ class Backend extends BaseController
 
         if(empty($token) && $level != 1) {
             $this->data['is_login'] = false;
-            echo "<h1>You are not authorised to enter this area</h1>";
+            echo "<h1>This is not where you should come</h1>";
             echo '<a href="'.base_url('login').'">Please Log in with admin account</a>';
             exit;
         
@@ -106,6 +106,8 @@ class Backend extends BaseController
         $title = $_POST['title'];
         $img = $_POST['img'];
         $price = $_POST['price'];
+        $detail = $_POST['detail'];
+
 
         $product_model = new Product_model();
 
@@ -115,6 +117,7 @@ class Backend extends BaseController
                 'title' => $title,
                 'img' => $img,
                 'price' => $price,
+                'detail' => $detail,
                 'created_date' => date("Y-m-d H:i:s")
             ]);
 
@@ -124,6 +127,7 @@ class Backend extends BaseController
                 'title' => $title,
                 'img' => $img,
                 'price' => $price,
+                'detail' => $detail,
                 'modified_date' => date("Y-m-d H:i:s")
             ]);
 

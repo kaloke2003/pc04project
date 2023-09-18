@@ -32,6 +32,10 @@
                                         <label for="price">Price</label>
                                         <input id="price" name="price" class="form-control" value="<?=isset($productData['price'])?$productData['price']:''?>"/>
                                     </div>
+                                    <div class="form-group">
+                                        <label for="detail">Detail</label>
+                                        <input id="detail" name="detail" class="form-control" value="<?=isset($productData['price'])?$productData['detail']:''?>"/>
+                                    </div>
 
                                     <input class="btn btn-primary" type="submit" value="Submit" />
 
